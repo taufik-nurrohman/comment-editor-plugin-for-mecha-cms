@@ -8,7 +8,7 @@ Weapon::add('shell_after', function() {
 
 Weapon::add('sword_after', function() {
     if(Config::get('page_type') == 'article') {
-        echo Asset::script(array(
+        echo Asset::javascript(array(
             'manager/sword/editor/editor.min.js',
             'manager/sword/editor/mte.min.js'
         ));
