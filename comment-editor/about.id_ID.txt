@@ -1,10 +1,10 @@
 Title: Editor Komentar
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 1.0.1
+Version: 1.0.2
 
 ====
 
 > Mengaktifkan editor teks Markdown di formulir komentar publik Anda.
 
-Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini akan mengambil berkas `editor.min.js` dan `mte.min.js` dari folder `manager/sword/editor` Anda untuk diterapkan pada formulr komentar publik.
+Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini akan mengambil berkas `editor.min.js` dan `mte.min.js` dari folder `manager\sword\editor` Anda untuk diterapkan pada formulr komentar publik.
