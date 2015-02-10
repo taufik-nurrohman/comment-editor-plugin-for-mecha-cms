@@ -5,6 +5,6 @@ Version: 1.0.4
 
 ====
 
-> Enable Mecha text editor on your public comment form.
+> Enable Mecha text editor in your public comment form.
 
-You don&rsquo;t need any external resources at all. This plugin will take your `editor.min.js` and `mte.min.js` file from your `manager\sword\editor` folder to be applied to your public comment form.
+You don&rsquo;t need any external resources at all. This plugin will only takes your `editor.min.js` and `mte.min.js` file from your `manager\sword\editor` folder to be applied in your public comment form.

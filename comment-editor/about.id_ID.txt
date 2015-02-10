@@ -7,4 +7,4 @@ Version: 1.0.4
 
 > Mengaktifkan editor teks Mecha di formulir komentar publik Anda.
 
-Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini akan mengambil berkas `editor.min.js` dan `mte.min.js` dari folder `manager\sword\editor` Anda untuk diterapkan pada formulr komentar publik.
+Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini hanya akan mengambil berkas `editor.min.js` dan `mte.min.js` dari folder `manager\sword\editor` Anda untuk diterapkan pada formulr komentar publik.
