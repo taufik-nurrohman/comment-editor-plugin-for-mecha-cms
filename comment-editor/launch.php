@@ -2,6 +2,13 @@
 
 if($config->comments) {
 
+    if($config->html_parser === 'HTML') {
+        Filter::add('shield:lot', function($data) {
+            $data['speak']->comment_guide = "";
+            return $data;
+        });
+    }
+
     Weapon::add('shell_after', function() use($config) {
         if(Config::get('page_type') === 'article') {
             if( ! Asset::loaded('manager/shell/editor.css')) {
