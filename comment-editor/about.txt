@@ -1,10 +1,10 @@
 Title: Comment Editor
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 1.1.0
+Version: 1.2.0
 
 ====
 
 > Enable Mecha text editor in your public comment form.
 
-You don&rsquo;t need any external resources at all. This plugin will only take your `editor.min.js` and `mte.min.js` file from your `manager\sword\editor` folder to be applied in your public comment form.
+You don&rsquo;t need any external resources at all. This plugin will only take your `editor.min.js` and `mte.min.js` file from your `manager\assets\sword\editor` folder to be applied in your public comment form.
