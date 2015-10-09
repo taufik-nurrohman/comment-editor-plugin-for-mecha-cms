@@ -2,7 +2,7 @@
 
 if($config->comments && $config->page_type === 'article') {
 
-    if($config->html_parser === 'HTML') {
+    if($config->html_parser === false || $config->html_parser === 'HTML') {
         Filter::add('shield:lot', function($data) {
             $data['speak']->comment_guide = "";
             return $data;
@@ -28,7 +28,7 @@ if($config->comments && $config->page_type === 'article') {
         if( ! Asset::loaded('manager/assets/sword/editor/hte.min.js')) {
             echo Asset::javascript('manager/assets/sword/editor/hte.min.js');
         }
-        echo O_BEGIN . '<script>(function(a,b){if(typeof MTE=="undefined"){return}var c=b.getElementById(\'comment-form\');if(!c){return}var t=c.message,p=c.content_type;if(typeof HTE!="undefined"){var k=\'' . $config->html_parser . '\';if(k==\'HTML\'){MTE=HTE;if(!p){var o=b.createElement(\'input\');o.name=\'content_type\';o.type=\'hidden\';o.value=\'HTML\';c.appendChild(o)}}}t.className+=\' code\';new MTE(t,{tabSize:\'' . TAB . '\',shortcut:1,toolbarClass:\'editor-toolbar cf\',emptyElementSuffix:\'' . ES . '\'})})(window,document);</script>' . O_END;
+        echo O_BEGIN . '<script>(function(a,b){if(typeof MTE=="undefined"){return}var c=b.getElementById(\'comment-form\');if(!c){return}var t=c.message,p=c.content_type;if(typeof HTE!="undefined"){var k=\'' . $config->html_parser . '\';if(!k||k==\'HTML\'){MTE=HTE;if(!p){var o=b.createElement(\'input\');o.name=\'content_type\';o.type=\'hidden\';o.value=\'HTML\';c.appendChild(o)}}}t.className+=\' code\';new MTE(t,{tabSize:\'' . TAB . '\',shortcut:1,toolbarClass:\'editor-toolbar cf\',emptyElementSuffix:\'' . ES . '\'})})(window,document);</script>' . O_END;
     });
 
 }
