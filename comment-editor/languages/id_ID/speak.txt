@@ -1,0 +1,1 @@
+__comment_editor_wizard: Tag <abbr title="Hyper Text Markup Language">HTML</abbr> dasar diperbolehkan.

@@ -1,0 +1,1 @@
+__comment_editor_wizard: Basic <abbr title="Hyper Text Markup Language">HTML</abbr> tags are allowed.
