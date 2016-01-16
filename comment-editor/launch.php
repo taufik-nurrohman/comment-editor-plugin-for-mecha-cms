@@ -6,15 +6,15 @@ if($config->comments->allow && $config->page_type === 'article') {
         Config::set('speak.comment_wizard', $speak->comment_wizard);
     }
     Weapon::add('shell_after', function() use($config) {
-        $s = PLUGIN . DS . 'editor' . DS . 'assets' . DS . 'shell' . DS . 'editor.css';
+        $s = PLUGIN . DS . '__editor' . DS . 'assets' . DS . 'shell' . DS . 'editor.css';
         if( ! Asset::loaded($s)) echo Asset::stylesheet($s);
         $s = $config->protocol . ICON_LIBRARY_PATH;
         if( ! Asset::loaded($s)) echo Asset::stylesheet($s);
     });
     Weapon::add('SHIPMENT_REGION_BOTTOM', function() use($config) {
-        $s = PLUGIN . DS . 'editor' . DS . 'assets' . DS . 'sword' . DS . 'editor.min.js';
+        $s = PLUGIN . DS . '__editor' . DS . 'assets' . DS . 'sword' . DS . 'editor.min.js';
         if( ! Asset::loaded($s)) echo Asset::javascript($s);
-        $s = PLUGIN . DS . 'editor' . DS . 'assets' . DS . 'sword' . DS . 'hte.min.js';
+        $s = PLUGIN . DS . '__editor' . DS . 'assets' . DS . 'sword' . DS . 'hte.min.js';
         if( ! Asset::loaded($s)) echo Asset::javascript($s);
         $s = PLUGIN . DS . 'markdown' . DS . 'assets' . DS . 'sword' . DS . 'mte.min.js';
         if( ! Asset::loaded($s)) echo Asset::javascript($s);

@@ -1,12 +1,12 @@
 Title: Editor Komentar
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 1.2.1
+Version: 1.2.2
 
 ====
 
 > Mengaktifkan editor teks Mecha di formulir komentar publik Anda.
 
-Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini hanya akan mengambil berkas `editor.min.js` dan `hte.min.js` dari folder `lot\plugins\manager\assets\sword` dan `mte.min.js` dari folder `lot\plugins\markdown\assets\sword` Anda untuk diterapkan pada formulr komentar publik.
+Anda tidak memerlukan sumber daya eksternal sama sekali. Plugin ini hanya akan mengambil berkas `editor.min.js` dan `hte.min.js` dari folder `lot\plugins\__editor\assets\sword` dan `mte.min.js` dari folder `lot\plugins\markdown\assets\sword` Anda untuk diterapkan pada formulr komentar publik.
 
 <!-- block:donate -->
